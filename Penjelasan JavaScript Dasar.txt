@@ -1,0 +1,262 @@
+#1 Dasar Pemrograman dengan Javascript_INTRO
+
+
+#2 Apa itu Pemrograman?
+
+"Program adalah kumpulan / serangkaian instruksi"
+Program adalah urutan instruksi terstruktur, yang dirancang agar komputer dapat berprilaku sesuai dengan ketentuan dengan tujuan untuk menyelesaikan sebuah pekerjaan.
+
+Instruksi
+> Memberikan perintah pada komputer .
+> Melalui bahasa pemrograman.
+> Memecah tugas menjadi instruksi sederhana (Misalkan operasi Matematik, menampilkan text ke layar).
+
+Instruksi yang diberikan kepada komputer disebut "Statement".
+Statement, Perintah untuk komputer dalam bahasa pemrograman.
+
+
+#3 Bahasa Pemrograman
+
+Bahasa Mesin
+
+	-- Bahasa Assembly = Bahasa tingkat rendah / Low level language
+	-- C
+	-- C++
+	-- Java, VB.NET	   = Bahasa tingkat tinggi / High level language
+	-- Ruby, Python
+	-- Javascript
+
+Bahasa Manusia
+
+IDE (Integrated Development Environtment)
+Code Editor seperti Apache Netbeans yang lebih Kompleks.
+
+
+#4 Compiler Vs. Interpreter
+
+2 Cara untuk menerjemahkan bahasa pemrograman ke bahasa mesin, yaitu Compiler dan Interpreter.
+
+Compiler adalah file code yang dicompile sehingga membuat file executable (file yang sudah bisa langsung dieksekusi).
+
+Interpreter adalah file code yang tidak melakukan compile tetapi menduplikat codenya, yang dimana nanti akan membutuhkan interpreter untuk menerjemahkan programnya. Menjalankan Interpreter akan menerjemahkan program nya sekaligus menjalankan programnya.
+
+Hybrid, sebuah file yang melakukan compile namun tidak menghasilkan file executable, tetapi menghasilkan file intermediate languange / byte code. 
+Kemudian untuk menjalankannya si byte code itu akan di compile sekaligus menjalankan code programnya.
+
+Bahasa yang menggunakan Compiler C, C++, Objective-C
+Bahasa yang menggunakan Interpreter Javascript, PHP
+Bahasa yang menggunakan Hybrid Java, Python
+
+
+#5 Kenapa Belajar JavaScript
+
+> Gratis
+> Tidak perlu installasi (Hanya butuh JavaScript)
+
+JavaScript is a high-level, scripting, untyped, and interpreted programming language.
+
+Javascript Spesifik untuk aplikasi Web. 
+Untyped, variabelnya bisa diisi dengan tipe data apa saja. Sedangkan typed, variabelnya bisa diisi dengan tipe data tertentu.
+
+Javascript bisa apa?
+> Client-side Web Development (Front End Dev)
+  > Native Javascript / Vanilla Javascript
+  > JQuery
+  > AnguarJS, React, Ember, Backbone
+> Server-side Development (Back End Dev)
+  > NodeJS
+  > ExpressJS
+> Browser Exstension
+> Desktop Applications 
+  > Electron, AppJS
+> Mobile App Development
+  > JQuery Mobile, Cordova / PhoneGap
+> IoT & Robotic
+> JSON (Java Script Object Notation), yang digunakan untuk pertukaran data.
+
+
+#6 Sejarah JavaScript
+
+
+#7 Lingkungan Pengembangan JavaScript
+Console Web Browser (CTRL + ALT + J)
+Dapat menuliskan syntax js di console
+Menampilkan error js di console
+Dapat melakukan debug js di console
+Dapat menuliskan script js di dalam html seperti css.
+
+
+#8 Nilai dan Tipe Data pada JavaScript
+
+Data tersimpan dalam serangkaian Bit.
+Bit (binary digit) adalah satuan terkecil dari data yang ada di dalam komputer kita.
+
+Bit / Bilangan biner nilainya hanya 0 / 1
+
+Potongan bit = value / nilai
+Dimana nilai itu disebut dengan Tipe data.
+6 Tipe data di JavaScript :
+- number
+- string
+- boolean
+- object
+- function
+- undifined
+
+
+#9 Tipe Data Pada Javascript
+
+Tipe Data angka
+Di dalam Js tidak ada Integer atau Bilangan Bulat.
+Yang ada adalah hanya floating point (Bilanga Pecahan)
+Ukuran angka yang dapat ditampung 64 bit.
+
+Angka tanpa desimal
+12, 100, 2034
+
+Angka dengan desimal
+3.14, 0.5, 100.00
+
+Eksponen
+123e5 // 12300000
+123e-5 // 0.00123
+
+Bilangan Negatif
+-25, -0.25
+
+Jangan Pernah mengawali angka di js dengan angka 0
+Karena jika kita menggunakan angka 0 diawal maka akan dianggap bilangan oktal(basis 8).
+Sama juga dengan 0xFF karena akan dianggap sebagai bilangan hexadesimal(basis 16 (0-9 A-F)). 
+
+Angka spesial
+- Jika Membagi 2 / 0                    = Invinity
+- Jika Membagi 2 / 0                    = -Invinity
+- Jika Membagi 0 / 0  ||  100 / "apel"  = NaN
+               100 / "10"               = 10
+
+
+#10 Operator Pada JavaScript (Aritmatika, Penugasan & Perbandingan)
+
+Operator, dalam JavaScript adalah sebuah symbol yang digunakan untuk melakukan operasi.
+
+Jenis Operator JavaScript :
+> Binary, sebuah operator yang membutuhkan 2 operand.
+    > Aritmatika ( +, -, *, /, % )
+    > Penugasan ( =, +=, -=, *=, /=, %= )
+    > Perbandingan 
+              ( == sama dengan,
+                != tidak sama dengan,
+                === strict sama dengan,
+                !== strict tidak sama dengan,
+                > lebih besar dari,
+                < lebih kecil dari,
+                >= lebih besar sama dengan,
+                <= lebih kecil sama dengan
+              )
+              Akan menghasilkan nilai boolean (true/false), == mengecek nilainya 
+              === mengecek nilai dan tipe datanya.
+    > Logika
+    > String
+> Ternary, sebuah operator yang membutuhkan 3 operand.
+    > Kondisional
+> Unary, sebuah operator yang membutuhkan 1 operand.
+    > Typeof
+
+
+#11 Operator pada JavaScript (Logika, String, Typeof dan Kondisional)
+
+Logika
+&&  = and (keduanya harus true = true)
+||  = or  (asal salah satunya benar = true)
+!   = not (true jadi false, false jadi true)
+
+String
++   = menambahkan string
+    var a = "Hello"
+    var b = "World!"
+    a + b             // Hello World
+
+Typeof 
+typeof(operand)
+typeof(10)               // number
+typeof("Hai")            // string
+
+Kondisional
+digunakan untuk melakukan pengecekan pada sebuah kondisi dan menentukan nilai yang dihasilkan ketika nilai nya bernilai true atau false.
+
+(kondisi) ? benar : salah
+
+x = 1 
+(x % 2 == 0) ? "Benar" : "Salah"
+// Salah
+
+Clear Console (Ctrl + K)
+
+
+#12 Tipe Data Pada String
+
+Tipe data String dalam Javascript digunakan untuk mempresentasikan data tekstual.
+Data Tesktual = Plain Text.
+
+" " atau ' '
+Contoh : "Izuchii" atau 'Izuchii'
+
+Escape character ( \0, \', \", \\, \n, \t, \b, \uxxxx )
+menambahkan \" \'  
+Misalkan : 
+  '"Gerakan Pungut Sampah"
+dilaksanakan pada hari jum\'at'
+
+.lenght = menghitung panjang dari sebuah string dan akan menghitung spasi
+
+
+#13 Tipe Data Pada JavaScript Boolean
+
+Apa itu Boolean? sebuah tipe data yang digunakan untuk merepresentasikan logika true atau false.
+
+Biasanya digunakan pada statement pengkondisian, untuk menentukan aksi yang berbeda dan mengatur alur kendali program.
+
+True | False
+
+Boolean(nilai)
+misalkan :
+  Boolean(10 < 20)              // true
+  "Izuchii" === "izuchii"       // false
+
+Truthy          ||  Falsy
+true                false
+non-zero number       0
+"String"              ""
+object              undifined
+arrays              null
+function            NaN
+
+undifined, adalah sebuah tipe yang dihasilkan ketika kita mendeklarasikan sebuah variabel, tapi belum mengisikan isinya.
+
+null, adalah nilai kosong yang bisa kita berikan pada sebuah variabel.
+
+
+#14 Variabel Pada JavaScript
+
+Variabel, adalah sebuah 'tempat/wadah' yang memiliki nama,yang digunakan untuk menyimpan nilai.
+
+Deklarasi, mendaftarkan variabel kedalam lingkup yang sesuai.
+Inisialisasi, menyediakan memory untuk variabel.
+Assignment, menetapkan nilai yang spesifik ke dalam variabel.
+
+var x = 10;
+var (Deklarasi)
+x (Inisialisasi)
+20 (Assignment)
+
+Deklarasi variabel
+var, let, const
+
+Keyword & reserved word yang tidak boleh digunakan sebagai variabel di JavaScript (kata kata yang ada fungsi JavaScript).
+
+
+
+#15 Menulis JavaScript
+
+Membutuhkan Tag <script></script>
+console.log(' ');                         // untuk menampilkan js ke dalam tampilan console
