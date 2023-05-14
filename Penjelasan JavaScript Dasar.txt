@@ -293,5 +293,24 @@ Normal Flow, apabila program kita memiliki lebih dari satu statement, maka state
 
 
 #19 Pengulangan Tabel Penelusuran
+Lanjutan angkot1.js
 
-Tabel Penelusuran 
+#20 Pengulangan For Pada JavaScript
+
+
+#21 Pengkondisian IF Else pada JavaScript (IF Else)
+
+
+#22 Pengkondisian IF Else pada JavaScript 2 (IF Else Else IF)
+
+
+#23 Pengkondisian Latihan Pengkondisian pada JavaScript
+
+
+#24 Pengkondisian Switch pada JavaScript
+
+
+#25 Pengulangan dan Pengkondisian Bersarang pada JavaScript
+
+
+#26 Membuat Game Suwit Jawa dengan JavaScript
