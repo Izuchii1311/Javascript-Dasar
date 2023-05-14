@@ -291,4 +291,7 @@ Normal Flow, apabila program kita memiliki lebih dari satu statement, maka state
 
 #18 Pengulangan While Pada JavaScript
 
-While
+
+#19 Pengulangan Tabel Penelusuran
+
+Tabel Penelusuran 

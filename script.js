@@ -1,10 +1,6 @@
-// var angka = true;
-// while(angka){
-//     alert('Hello World!');
-//     angka = confirm("lagi?");
-// }
+var jmlAngkot = 10
+var noAngkot = 1;
 
-var angka = 1;
-while(angka <= 5){
-    alert("Hello World" + angka++ +'x');
+while(noAngkot <= jmlAngkot) {
+    console.log('Angkot No. ' + noAngkot++ + ' beroperasi dengan Baik');
 }
