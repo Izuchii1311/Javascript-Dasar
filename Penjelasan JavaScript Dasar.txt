@@ -260,3 +260,17 @@ Keyword & reserved word yang tidak boleh digunakan sebagai variabel di JavaScrip
 
 Membutuhkan Tag <script></script>
 console.log(' ');                         // untuk menampilkan js ke dalam tampilan console
+
+
+#16 Pop Up Box pada JavaScript
+
+Pop Up Box Adalah sebuah window kecil pada Browser yang dapat kita munculkan sebagai alat interaksi yang digunakan agar user dapat berdialog dengan halaman web.
+
+Ada 3 Buah Pop Up Box :
+alert, alert("Hello, World!");
+
+prompt,  prompt("Masukkan Nama Anda : ");
+mengembalikan nilai apapun inputannya, supaya bisa memanggil nilai yang diinputkan kedalam prompt maka lebih baik dimasukkan ke dalam variabel.
+
+confirm, confirm('Kamu Yakin?');
+meminta konfirmasi dari user. Menembalikan nilai true or false 
