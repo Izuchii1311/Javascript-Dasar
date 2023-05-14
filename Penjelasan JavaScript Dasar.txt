@@ -287,3 +287,8 @@ Normal Flow, apabila program kita memiliki lebih dari satu statement, maka state
   if, if else, if else if else, switch
 
 2 Hal ini yang akan bisa mengatur alur dari program kita.
+
+
+#18 Pengulangan While Pada JavaScript
+
+While
