@@ -274,3 +274,16 @@ mengembalikan nilai apapun inputannya, supaya bisa memanggil nilai yang diinputk
 
 confirm, confirm('Kamu Yakin?');
 meminta konfirmasi dari user. Menembalikan nilai true or false 
+
+
+#17 Control Flow Pada JavaScript
+
+Normal Flow, apabila program kita memiliki lebih dari satu statement, maka statement tersebut akan dieksekusi dari atas ke bawah atau dari kiri ke kanan.
+
+> Pengulangan (Looping), sebuah konsep untuk mengerjakan atau mengeksekusi sebuah stmt yang sama berulang.
+  for, while, do while
+
+> Pengkondisian (Percabangan), adalah sebuah keadaan dimana sebuah program kita bisa memilih untuk mengeksekusi stmt yang berbeda bedasarkan kondisi yang diberikan.
+  if, if else, if else if else, switch
+
+2 Hal ini yang akan bisa mengatur alur dari program kita.
