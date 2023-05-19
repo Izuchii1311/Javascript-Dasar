@@ -313,4 +313,121 @@ Lanjutan angkot1.js
 #25 Pengulangan dan Pengkondisian Bersarang pada JavaScript
 
 
-#26 Membuat Game Suwit Jawa dengan JavaScript
+#26 Membuat Game Suwit Jawa dengan JavaScript (suitJava.js dan tebakangka.js)
+
+
+#27 Function Pada JavaScript
+
+Function "adalah kunci utama pada Javascript yang membuat Javascript menjadi sangat powerfull."
+Function (Method, class, construktor, module)
+
+Function
+> Sebuah sub-program / sub-routine yang dapat 'dipanggil' di bagian lain pada program.
+> Merupakan struktur dasar pembentuk dari Javascript.
+> Disebut juga sebagai prosedur (kumpulan stmt untuk melakukan tugas atau menghitung atau mengkalkulasi sebuah nilai)
+> Untuk dapat menggunakannya, kita harus membuat terlebih dahulu function tersebut, lalu memanggil.
+> Termasuk ke dalah First-Class Object
+
+Kenapa Function ?
+> Reusability (Penggunaan kembali code yang telah dibuat)
+> Dekomposisi / Abstraksi
+> Modularitas
+
+Kategori Function 
+> Build-in Function (Function JS)
+  Fungsi yang sudah disediakan oleh JavaScript.
+  Kita tinggal memanggilnya.
+  Contoh : alert()   confirm()   prompt()   dll.
+
+> User-Define Function (Function yang dibuat sendiri)
+  Fungsi yang dibuat oleh kita sendiri
+  Menggunakan keyword function
+  Nama function (optional)
+  Bisa memberikan Parameter / Argument
+    disimpan di dalam ()
+    boleh ada dan boleh tidak ada, dan jika ada boleh > 1
+    jika > 1 pisahkan parameter dengan ,
+  body-nya dibungkus dengan {}
+  dapat mengembalikan nilai atau tidak.
+
+  Membuat User-Define Function
+    > Dengan Deklarasi
+      
+      *function jumlahDuaBilangan (a, b){
+        var total;
+        total = a + b;
+
+        return total;
+      }
+
+
+    > Dengan Ekspresi
+
+      *var jumlahDuaBilangan = function(a, b){
+        var total;
+        total = a + b;
+
+        return total;
+      }
+    
+  
+  Memanggil / menjalankan function
+  alert(jumlahDuaBilangan(1,2));
+
+
+
+#28 Function pada JavaScript Membuat dan Menjalankan Function (script28.js)
+
+Function 
+> Blok Kode yang melakukan tugas yang spesifik
+> Dapat dipanggil berulang ulang kali
+> Memudahkan Penelusuran
+> Reusability (Penggunaan ulang code program)
+
+
+return pada function
+> function biasanya mengembalikan sebuah nilai dengan menggunakan return
+> return kegunaannya untuk memberitahukan interpreter bahwa kita telah melakukan sesuatu dan inilah hasilnya.
+> setelah sampai pada keyword return, function akan berhenti berjalan
+
+
+
+#29 Function pada JavaScript Parameter dan Argument (script29.js)
+
+Paremeter, adalah variabel yang ditulis di dalam kurung saat function dibuat, digunakan untuk menampung nilai yang dikirimkan saat function dipanggil.  
+
+Argument, adalah nilai yang dikirimkan ke parameter saat fungsi dipanggil.
+
+Bagaimana jika parameter dan argument tidak sesuai ?
+  > Jika parameter lebih sedikit dibandingkan argument, maka argument kelebihannya akan diabaikan. (Spesifik JS)
+  > Jika parameter lebih banyak dibandingkan argument, maka parameter kelebihannya akan diisi dengan niai undifined
+
+
+Variabel arguments, array yang berisi nilai yang dikirimkan saat fungsi dipanggil.
+Contoh :
+
+function tambah(a, b){
+  return a + b;
+}
+
+console.log(tambah(1,2,3));
+
+arguments = [1,2,3,"hi",true];
+
+
+function tambah(){
+  return arguments;
+}
+var coba = tambah(1,2,3,"hi",true);
+
+
+
+#30 Function pada JavaScript Refactoring
+
+Refactoring adalah sebuah proses mengubah code agar menjadi lebih baik tanpa mengubah functionalitasnya.
+> Readability
+> DRY
+> Testability
+> Preformance
+> Maintainability
+
