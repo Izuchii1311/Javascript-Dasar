@@ -422,7 +422,7 @@ var coba = tambah(1,2,3,"hi",true);
 
 
 
-#30 Function pada JavaScript Refactoring
+#30 Function pada JavaScript Refactoring (script30.js)
 
 Refactoring adalah sebuah proses mengubah code agar menjadi lebih baik tanpa mengubah functionalitasnya.
 > Readability
