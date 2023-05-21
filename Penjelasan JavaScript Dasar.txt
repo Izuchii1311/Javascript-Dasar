@@ -431,3 +431,94 @@ Refactoring adalah sebuah proses mengubah code agar menjadi lebih baik tanpa men
 > Preformance
 > Maintainability
 
+
+
+#31 Function pada JavaScript : Variabel Scope (script31.js)
+
+block scope vs. function scope
+
+Block scope (digunakan C & Java)
+variabel yang dibuat di dalam block scope hanya berlaku di dalam block itu saja { ... }
+
+Function scope (digunakan JavaScript)
+
+
+
+#32 Function pada JavaScript : Rekursif (Script32.js)
+
+Rekursif, sebuah fungsi yang memanggil dirinya sendiri.
+Rekursif, harus berhasil dan mengembalikan sebuah nilai
+
+Kondisi berhenti pemanggilan Rekursif yaitu Base Case
+Base Case atau kondisi akhir dari rekursif yang menghasilkan nilai.
+
+Rekursif, semua looping bisa dibuat rekursif, tapi tidak sebaliknya.
+
+Implementasi Rekursif
+> Menggantikan Looping
+> Fibonaci
+> Pencarian dan penelusuran pada struktur data list dan tree
+> Bahasa Pemrograman yang tidak memiliki perulangan (Haskell, erlang, prolog, dll)
+
+
+
+#33 Function pada JavaScript : Declaration vs. Exsperssion
+
+Function Declaration, ( function indentifire (ParameterList opt) { FunctionBody } )
+> Lebih Fleksibel (dapat ditulis dimanapun)
+  > Konsep Hoisting (declarasikan terlebih dahulu baru dijalankan)
+> Mudah dipahami Pemula
+
+
+  * function tampilNama (nama) {
+    alert('halo' + nama);
+  }
+
+
+Function Exsperssion, ( function indentifire opt (ParameterList opt) { FunctionBody } )
+> Harus didefinisikan terlebih dahulu sebelum dipanggil
+> Lebih powerfull :
+  > Sebagai closure
+  > Sebagai argument untuk function yang lain
+  > IIFE (Immediately Invoked Function Ekspression)
+
+  * var tampilNama = function (nama) {
+                        alert('halo' + nama);
+                      }
+
+
+
+#34 Array pada JavaScript : Intro
+
+Array, "Susunan sistematis dari object object yang serupa."
+Array, "Dia adalah tipe data yang digunakan untuk mendeskripsikan kumpulan element (nilai atau variabel) yang tiap element elementnya memiliki index."
+
+Array, "Sebuah variabel yang bisa menampung lebih dari satu nilai."
+
+Kenapa array?
+> Mempermudah pengelolaan nilai / value / data
+  > Penelusuran dan pencarian
+> Management memory
+
+Array 
+> Variabel jamak, yang mempunyai banyak element dan diacu dengan nama yang sama 
+> Kumpulan pasangan key and value.
+> Key adalah index [0]
+> Array pada JavaScript bertipe object
+> Array pada JavaScript memiliki fungsi atau method lenght untuk menghitung jumlah element di dalamnya.
+> Element pada array boleh memiliki tipe data yang berbeda.
+
+
+
+#35 Array pada JavaScript : Manipulasi Array (script35.js)
+
+Manipulasi Array 
+> Menambahkan element pada array
+> Menghapus elemnt pada array
+> Menampilkan seluruh isi array
+
+Method pada Array
+> lenght = mengetahui jumlah pada array
+> join = method yang menggabungkan seluruh isi array dan mengubahnya menjadi sebuah string
+          method adalah sebuah function yang ada di dalam sebuah object
+> push, pop, shift, unshift = digunakan untuk menambah dan menghapus method array.
