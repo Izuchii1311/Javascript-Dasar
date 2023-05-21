@@ -562,3 +562,43 @@ Method pada Array
 > filter & find = digunakan untuk mencari element pada array
                 find = mengembalikan 1 nilai
                 filter = mengembalikan banyak nilai
+
+
+#39 Membuat Program Pengelolaan Penumpang Angkot dengan JavaScript (script39.js)
+
+Latihan dari Function dan Array
+
+Pengelolaan Penumpang
+> Penumpang naik
+  > tambahPenumpang()
+    > 2 buah parameter 
+      (nama penumpang, array penumpang)
+    > rules 
+      (jika penumpangnya kosong, maka penumpangnya akan duduk di kursi pertama)
+      (penumpang berikutnya duduk di kursi berikutnya)
+      (jika ada kursi kosong (penumpang yang turun), maka penumpang yang naik akan mengisikan kursi kosong tersebut).
+      (asumsikan kursi tidak akan penuh)
+      (nama penumpang tidak boleh sama)
+
+  var penumpang = [];
+  var penumpang = ['Izuchii', undefined, 'Luthfi'];
+  var penumpang = ['Izuchii', 'Hutao', 'Luthfi'];
+      notice : jika ada nama yang sama ('nama sudah ada di dalam angkot')
+
+  > hapusPenumpang()
+
+
+
+#40 Membuat Program Pengelolaan Penumpang Angkot dengan JavaScript (script40.js -eps 2)
+
+> hapusPenumpang()
+  > 2 parameter
+    (nama penumpang, array penumpang)
+  > rules
+    (jika angkot kosong, tampilkan angkot kosong)
+    (jika ada penumpang ada yang namanya sesuai dan ingin turun ganti menjadi undefined)
+    (jika tidak ada nama penumpang yang tidak ada di angkot, show message)
+
+    var penumpang = [];
+    var penumpang = ['Izuchii', 'Hutao', 'Luthfi'];
+        notice : jika nama penumpang yang tidak ada di dalam angkot
