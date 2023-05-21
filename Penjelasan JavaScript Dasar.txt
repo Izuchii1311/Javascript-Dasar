@@ -546,3 +546,19 @@ Method pada Array
 > slice, splice = mengambil beberapa bagian menjadi array yang baru || menyambungkan / menambal array
 > foreach & map = untuk melakukan looping pada array
 > sort = mengurutkan array
+
+
+
+#38 Array pada JavaScript : Filter and Find
+
+Method pada Array
+> lenght = mengetahui jumlah pada array
+> join = method yang menggabungkan seluruh isi array dan mengubahnya menjadi sebuah string
+          method adalah sebuah function yang ada di dalam sebuah object
+> push, pop, shift, unshift = digunakan untuk menambah dan menghapus method array.
+> slice, splice = mengambil beberapa bagian menjadi array yang baru || menyambungkan / menambal array
+> foreach & map = untuk melakukan looping pada array
+> sort = mengurutkan array
+> filter & find = digunakan untuk mencari element pada array
+                find = mengembalikan 1 nilai
+                filter = mengembalikan banyak nilai
