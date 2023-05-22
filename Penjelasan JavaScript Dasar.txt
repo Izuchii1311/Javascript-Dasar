@@ -602,3 +602,69 @@ Pengelolaan Penumpang
     var penumpang = [];
     var penumpang = ['Izuchii', 'Hutao', 'Luthfi'];
         notice : jika nama penumpang yang tidak ada di dalam angkot
+
+
+
+#41 Object pada JavaScript : Intro (script41.js)
+
+Array adalah kumpulan nilai yang memiliki index.
+Array adalah variabel yang lebih sakti.
+Object adalah kumpulan nilai tetapi tidak mimiliki index melainkan nama.
+Object adalah array yang lebih sakti.
+
+Object Literal
+    // Membuat Object
+    var mhs = {
+        nama : "Izuchii",
+        umur : 20,
+        ips : [3.30, 3.20, 3.10, 3.20],
+        alamat : {
+            jalan : "Jl.Madesa No.21",
+            kota : "Bandung",
+            provinsi : "Jawa Barat"
+        }
+    };
+
+
+
+
+#42 Object pada JavaScript : Membuat Object (script42.js)
+
+Membuat Object pada JavaScript
+> Object Literal
+> Membuat object menggunakan function (Function Declaration)
+> Constructor Function
+> Object.create()
+
+Apa perbedaannya antara Function Declaration dengan Function Constructor
+1. Sebaiknya jika function declaration diawali huruf kecil
+   Dan untuk function constructor diawali huruf besar sebagai pembeda diantara keduanya
+2. Jika menggunakan function declaration kita membuat variabel object sendiri dan melakukan return. Sedangkan di function constructor tidak (sudah dibuatkan oleh JavaScript).
+3. Untuk function constructor memanggilnya menggunakan keyword 'new'.
+   Jika tidak maka akan dianggap memanggil function declaration.
+
+
+
+
+#43 Object pada JavaScript : This (script43.js)
+
+Membuat Object pada JavaScript
+> Object Literal
+> Membuat object menggunakan function (Function Declaration)
+> Constructor Function
+> Object.create()
+
+this adalah sebuah keyword spesial yang secara otomatis didefinisikan pada setiap function.
+Setiap membuat function, maka akan ada keyword this yang didefinisikan
+
+
+
+#44 Object pada JavaScript : Latihan Object (selesai) (script44.js)
+
+Pengelolaan angkot
+> Supir
+> Trayek
+> Kas
+> Penumpang
+  > Penumpang naik
+  > Penumpang turun
